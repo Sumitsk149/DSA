@@ -20,4 +20,8 @@
 |  |
 | ------- |
 | [0605-can-place-flowers](https://github.com/Sumitsk149/DSA/tree/master/0605-can-place-flowers) |
+## Database
+|  |
+| ------- |
+| [1908-recyclable-and-low-fat-products](https://github.com/Sumitsk149/DSA/tree/master/1908-recyclable-and-low-fat-products) |
 <!---LeetCode Topics End-->
