@@ -1,41 +1,31 @@
 public class Solution {
     public bool CanPlaceFlowers(int[] flowerbed, int n) {
+        
+        if(n == 0)
+        {
+            return true;
+        }
+
         int count = 0;
-        bool isLastEmpty = true;
         for(int i = 0; i < flowerbed.Length; i++)
         {
-            if(flowerbed[i] == 1)
-            {
-                isLastEmpty = false;
-                continue;
-            }
-
             if(flowerbed[i] == 0)
             {
-                if(isLastEmpty && (i + 1 == flowerbed.Length))
+                bool isLeftPlotEmpty = (i == 0) || (flowerbed[i - 1] == 0);
+                bool isRightPlotEmpty = (i + 1 == flowerbed.Length) || (flowerbed[i + 1] == 0);
+                               
+                if(isLeftPlotEmpty && isRightPlotEmpty)
                 {
+                    flowerbed[i] = 1;
                     count++;
-                    isLastEmpty = false;
+                    if(count >= n)
+                        return true;
                 }                
-                else if(isLastEmpty && flowerbed[i + 1] == 0)
-                {
-                    count++;
-                    isLastEmpty = false;
-                }
-                else
-                {
-                    isLastEmpty = true;
-                }
             }
         }
 
         if(count >= n)
-        {
             return true;
-        }
-        else
-        {
-            return false;
-        }
+        return false;
     }
 }
