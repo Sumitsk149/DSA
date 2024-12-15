@@ -6,10 +6,12 @@
 ## Two Pointers
 |  |
 | ------- |
+| [0151-reverse-words-in-a-string](https://github.com/Sumitsk149/DSA/tree/master/0151-reverse-words-in-a-string) |
 | [1894-merge-strings-alternately](https://github.com/Sumitsk149/DSA/tree/master/1894-merge-strings-alternately) |
 ## String
 |  |
 | ------- |
+| [0151-reverse-words-in-a-string](https://github.com/Sumitsk149/DSA/tree/master/0151-reverse-words-in-a-string) |
 | [1894-merge-strings-alternately](https://github.com/Sumitsk149/DSA/tree/master/1894-merge-strings-alternately) |
 ## Array
 |  |
