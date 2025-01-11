@@ -1,18 +1,16 @@
 public class Solution {
     public int PartitionString(string s) {
-        HashSet<char> hs = new();
-        int count = 1;
-        foreach(var ch in s)
-        {
-            if(!hs.Add(ch))
-            {
+        var set = new HashSet<char>();
+        var count = 1;
+
+        foreach (var c in s) {
+            if (set.Contains(c)) {
+                set.Clear();
                 count++;
-                hs = new();
-                hs.Add(ch);
             }
+            set.Add(c);
         }
 
         return count;
-        
     }
 }
