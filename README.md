@@ -22,6 +22,7 @@
 ## Array
 |  |
 | ------- |
+| [0036-valid-sudoku](https://github.com/Sumitsk149/DSA/tree/master/0036-valid-sudoku) |
 | [0283-move-zeroes](https://github.com/Sumitsk149/DSA/tree/master/0283-move-zeroes) |
 | [0334-increasing-triplet-subsequence](https://github.com/Sumitsk149/DSA/tree/master/0334-increasing-triplet-subsequence) |
 | [0485-max-consecutive-ones](https://github.com/Sumitsk149/DSA/tree/master/0485-max-consecutive-ones) |
@@ -48,5 +49,10 @@
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Sumitsk149/DSA/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0036-valid-sudoku](https://github.com/Sumitsk149/DSA/tree/master/0036-valid-sudoku) |
 | [2487-optimal-partition-of-string](https://github.com/Sumitsk149/DSA/tree/master/2487-optimal-partition-of-string) |
+## Matrix
+|  |
+| ------- |
+| [0036-valid-sudoku](https://github.com/Sumitsk149/DSA/tree/master/0036-valid-sudoku) |
 <!---LeetCode Topics End-->
