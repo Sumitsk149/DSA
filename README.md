@@ -7,6 +7,7 @@
 |  |
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Sumitsk149/DSA/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0075-sort-colors](https://github.com/Sumitsk149/DSA/tree/master/0075-sort-colors) |
 | [0151-reverse-words-in-a-string](https://github.com/Sumitsk149/DSA/tree/master/0151-reverse-words-in-a-string) |
 | [0283-move-zeroes](https://github.com/Sumitsk149/DSA/tree/master/0283-move-zeroes) |
 | [0345-reverse-vowels-of-a-string](https://github.com/Sumitsk149/DSA/tree/master/0345-reverse-vowels-of-a-string) |
@@ -25,6 +26,7 @@
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Sumitsk149/DSA/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0036-valid-sudoku](https://github.com/Sumitsk149/DSA/tree/master/0036-valid-sudoku) |
+| [0075-sort-colors](https://github.com/Sumitsk149/DSA/tree/master/0075-sort-colors) |
 | [0283-move-zeroes](https://github.com/Sumitsk149/DSA/tree/master/0283-move-zeroes) |
 | [0334-increasing-triplet-subsequence](https://github.com/Sumitsk149/DSA/tree/master/0334-increasing-triplet-subsequence) |
 | [0485-max-consecutive-ones](https://github.com/Sumitsk149/DSA/tree/master/0485-max-consecutive-ones) |
@@ -57,4 +59,8 @@
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/Sumitsk149/DSA/tree/master/0036-valid-sudoku) |
+## Sorting
+|  |
+| ------- |
+| [0075-sort-colors](https://github.com/Sumitsk149/DSA/tree/master/0075-sort-colors) |
 <!---LeetCode Topics End-->
