@@ -32,6 +32,7 @@
 | [0485-max-consecutive-ones](https://github.com/Sumitsk149/DSA/tree/master/0485-max-consecutive-ones) |
 | [0605-can-place-flowers](https://github.com/Sumitsk149/DSA/tree/master/0605-can-place-flowers) |
 | [0643-maximum-average-subarray-i](https://github.com/Sumitsk149/DSA/tree/master/0643-maximum-average-subarray-i) |
+| [1137-height-checker](https://github.com/Sumitsk149/DSA/tree/master/1137-height-checker) |
 | [1528-kids-with-the-greatest-number-of-candies](https://github.com/Sumitsk149/DSA/tree/master/1528-kids-with-the-greatest-number-of-candies) |
 ## Greedy
 |  |
@@ -63,4 +64,9 @@
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/Sumitsk149/DSA/tree/master/0075-sort-colors) |
+| [1137-height-checker](https://github.com/Sumitsk149/DSA/tree/master/1137-height-checker) |
+## Counting Sort
+|  |
+| ------- |
+| [1137-height-checker](https://github.com/Sumitsk149/DSA/tree/master/1137-height-checker) |
 <!---LeetCode Topics End-->
