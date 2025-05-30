@@ -37,6 +37,7 @@
 | [0643-maximum-average-subarray-i](https://github.com/Sumitsk149/DSA/tree/master/0643-maximum-average-subarray-i) |
 | [1137-height-checker](https://github.com/Sumitsk149/DSA/tree/master/1137-height-checker) |
 | [1528-kids-with-the-greatest-number-of-candies](https://github.com/Sumitsk149/DSA/tree/master/1528-kids-with-the-greatest-number-of-candies) |
+| [2902-max-pair-sum-in-an-array](https://github.com/Sumitsk149/DSA/tree/master/2902-max-pair-sum-in-an-array) |
 ## Greedy
 |  |
 | ------- |
@@ -60,6 +61,7 @@
 | [0003-longest-substring-without-repeating-characters](https://github.com/Sumitsk149/DSA/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0036-valid-sudoku](https://github.com/Sumitsk149/DSA/tree/master/0036-valid-sudoku) |
 | [2487-optimal-partition-of-string](https://github.com/Sumitsk149/DSA/tree/master/2487-optimal-partition-of-string) |
+| [2902-max-pair-sum-in-an-array](https://github.com/Sumitsk149/DSA/tree/master/2902-max-pair-sum-in-an-array) |
 ## Matrix
 |  |
 | ------- |
