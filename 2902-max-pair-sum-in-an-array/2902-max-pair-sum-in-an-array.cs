@@ -1,46 +1,36 @@
-public class Solution {
-    public int MaxSum(int[] nums) {
-
+public class Solution
+{
+    public int MaxSum(int[] nums)
+    {
         int result = -1;
+        int[] maxByDigit = new int[10]; // Highest digit range is 0-9
 
-        Dictionary<int, int> hashMap = new Dictionary<int, int>();
-
-        foreach(var num in nums)
+        foreach (int num in nums)
         {
             int digit = GetHighestDigit(num);
-            if(hashMap.ContainsKey(digit))
+
+            if (maxByDigit[digit] > 0)
             {
-                result = Math.Max(result, (hashMap[digit] + num));
-                if(num > hashMap[digit])
-                {
-                    hashMap[digit] = num;
-                }
+                result = Math.Max(result, maxByDigit[digit] + num);
+                maxByDigit[digit] = Math.Max(maxByDigit[digit], num);
             }
             else
             {
-                hashMap.Add(digit, num);
+                maxByDigit[digit] = num;
             }
         }
 
         return result;
-        
     }
 
-    public int GetHighestDigit(int num)
+    private int GetHighestDigit(int num)
     {
         int maxDigit = 0;
-
-        while(num > 0)
+        while (num > 0 && maxDigit < 9)
         {
-            int digit = num % 10;
-            maxDigit = Math.Max(maxDigit, digit);
-            num = num / 10;
-            if(maxDigit == 9)
-            {
-                break;
-            }
+            maxDigit = Math.Max(maxDigit, num % 10);
+            num /= 10;
         }
-        
         return maxDigit;
     }
 }
