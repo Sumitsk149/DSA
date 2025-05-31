@@ -27,6 +27,7 @@
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Sumitsk149/DSA/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0036-valid-sudoku](https://github.com/Sumitsk149/DSA/tree/master/0036-valid-sudoku) |
 | [0048-rotate-image](https://github.com/Sumitsk149/DSA/tree/master/0048-rotate-image) |
+| [0053-maximum-subarray](https://github.com/Sumitsk149/DSA/tree/master/0053-maximum-subarray) |
 | [0075-sort-colors](https://github.com/Sumitsk149/DSA/tree/master/0075-sort-colors) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Sumitsk149/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Sumitsk149/DSA/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
@@ -83,6 +84,11 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/Sumitsk149/DSA/tree/master/0053-maximum-subarray) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Sumitsk149/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Sumitsk149/DSA/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0053-maximum-subarray](https://github.com/Sumitsk149/DSA/tree/master/0053-maximum-subarray) |
 <!---LeetCode Topics End-->
