@@ -80,6 +80,7 @@
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/Sumitsk149/DSA/tree/master/0002-add-two-numbers) |
 | [0009-palindrome-number](https://github.com/Sumitsk149/DSA/tree/master/0009-palindrome-number) |
 | [0048-rotate-image](https://github.com/Sumitsk149/DSA/tree/master/0048-rotate-image) |
 ## Dynamic Programming
@@ -92,4 +93,12 @@
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/Sumitsk149/DSA/tree/master/0053-maximum-subarray) |
+## Linked List
+|  |
+| ------- |
+| [0002-add-two-numbers](https://github.com/Sumitsk149/DSA/tree/master/0002-add-two-numbers) |
+## Recursion
+|  |
+| ------- |
+| [0002-add-two-numbers](https://github.com/Sumitsk149/DSA/tree/master/0002-add-two-numbers) |
 <!---LeetCode Topics End-->
