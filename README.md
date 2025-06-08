@@ -28,6 +28,7 @@
 | [0036-valid-sudoku](https://github.com/Sumitsk149/DSA/tree/master/0036-valid-sudoku) |
 | [0048-rotate-image](https://github.com/Sumitsk149/DSA/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/Sumitsk149/DSA/tree/master/0053-maximum-subarray) |
+| [0073-set-matrix-zeroes](https://github.com/Sumitsk149/DSA/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/Sumitsk149/DSA/tree/master/0075-sort-colors) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Sumitsk149/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Sumitsk149/DSA/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
@@ -61,6 +62,7 @@
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Sumitsk149/DSA/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0036-valid-sudoku](https://github.com/Sumitsk149/DSA/tree/master/0036-valid-sudoku) |
+| [0073-set-matrix-zeroes](https://github.com/Sumitsk149/DSA/tree/master/0073-set-matrix-zeroes) |
 | [2487-optimal-partition-of-string](https://github.com/Sumitsk149/DSA/tree/master/2487-optimal-partition-of-string) |
 | [2902-max-pair-sum-in-an-array](https://github.com/Sumitsk149/DSA/tree/master/2902-max-pair-sum-in-an-array) |
 ## Matrix
@@ -68,6 +70,7 @@
 | ------- |
 | [0036-valid-sudoku](https://github.com/Sumitsk149/DSA/tree/master/0036-valid-sudoku) |
 | [0048-rotate-image](https://github.com/Sumitsk149/DSA/tree/master/0048-rotate-image) |
+| [0073-set-matrix-zeroes](https://github.com/Sumitsk149/DSA/tree/master/0073-set-matrix-zeroes) |
 ## Sorting
 |  |
 | ------- |
