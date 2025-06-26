@@ -1,36 +1,30 @@
-public class Solution {
-    public string ReverseWords(string s) {
-        List<String> words = new List<String>();
-
+public class Solution
+{
+    public string ReverseWords(string s)
+    {
         StringBuilder sb = new();
-        foreach(var ch in s)
+        int end = -1;
+
+        for (int i = s.Length - 1; i >= 0; i--)
         {
-            if(char.IsWhiteSpace(ch))
+            if (!char.IsWhiteSpace(s[i]))
             {
-                if(sb.Length > 0)
+                if (end == -1)
                 {
-                    words.Add(sb.ToString());
-                    sb = new();
+                    end = i;
+                }
+
+                // If we're at the start of the string or previous char is whitespace, we found a word boundary
+                if (i == 0 || char.IsWhiteSpace(s[i - 1]))
+                {
+                    if (sb.Length > 0)
+                    {
+                        sb.Append(' ');
+                    }
+                    sb.Append(s.Substring(i, end - i + 1));
+                    end = -1;
                 }
             }
-            else
-            { 
-                sb.Append(ch);                               
-            }
-        }
-
-        if(sb.Length > 0)
-        {
-            words.Add(sb.ToString());
-            sb = new();
-        }
-
-
-        for(int i = words.Count - 1; i >= 0; i--)
-        {
-            sb.Append(words[i]);
-            if(i != 0)
-                sb.Append(" ");
         }
 
         return sb.ToString();
