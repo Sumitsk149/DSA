@@ -1,49 +1,30 @@
 public class MinStack {
 
-    Stack<(int value, int min)> stack;
-    int min = 0;
-    int top = -1;
+    Stack<(int value, int min)> stack = new();
 
     public MinStack() 
-    {
-        stack = new Stack<(int value, int min)>();        
+    {      
     }
     
     public void Push(int val) 
     {
-        if(top == -1)
-        {
-            min = val;
-        }
-        else if(val < min)
-        {
-            min = val;
-        }
-        
+        int min = stack.Count == 0 ? val : Math.Min(val, stack.Peek().min);
         stack.Push((val, min));
-        top++;
     }
     
     public void Pop() 
     {
         stack.Pop();
-        top--;
-        if(top != -1)
-        {
-            min = GetMin();
-        }
     }
     
     public int Top() 
     {
-        var topVal = stack.Peek();
-        return topVal.value;
+        return stack.Peek().value;
     }
     
     public int GetMin() 
     {
-        var topVal = stack.Peek();
-        return topVal.min;
+        return stack.Peek().min;
     }
 }
 
