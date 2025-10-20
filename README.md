@@ -110,4 +110,12 @@
 |  |
 | ------- |
 | [1203-print-in-order](https://github.com/Sumitsk149/DSA/tree/master/1203-print-in-order) |
+## Stack
+|  |
+| ------- |
+| [0155-min-stack](https://github.com/Sumitsk149/DSA/tree/master/0155-min-stack) |
+## Design
+|  |
+| ------- |
+| [0155-min-stack](https://github.com/Sumitsk149/DSA/tree/master/0155-min-stack) |
 <!---LeetCode Topics End-->
