@@ -1,22 +1,20 @@
 public class Solution {
-    public int RemoveDuplicates(int[] nums) {
-        
-        int uniqCount = 1;
-        int lastElement = nums[0];        
-        int positionToFill = 1;
-        
+    public int RemoveDuplicates(int[] nums) 
+    {
+        int lastNum = nums[0];
+        int count = 1;
+        int lastNumPosition = 1;
+
         for(int i = 1; i < nums.Length; i++)
         {
-            if(nums[i] != lastElement)
+            if(nums[i] > lastNum)
             {
-                nums[positionToFill] = nums[i];
-                lastElement = nums[i];
-                uniqCount++;
-                positionToFill++;
+                count++;
+                nums[lastNumPosition++] = nums[i];
+                lastNum = nums[i];
             }
         }
-        
-        return uniqCount;
-        
+
+        return count;
     }
 }
