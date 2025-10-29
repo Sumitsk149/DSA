@@ -7,6 +7,7 @@
 |  |
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Sumitsk149/DSA/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0027-remove-element](https://github.com/Sumitsk149/DSA/tree/master/0027-remove-element) |
 | [0075-sort-colors](https://github.com/Sumitsk149/DSA/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/Sumitsk149/DSA/tree/master/0088-merge-sorted-array) |
 | [0151-reverse-words-in-a-string](https://github.com/Sumitsk149/DSA/tree/master/0151-reverse-words-in-a-string) |
@@ -26,6 +27,7 @@
 |  |
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Sumitsk149/DSA/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0027-remove-element](https://github.com/Sumitsk149/DSA/tree/master/0027-remove-element) |
 | [0036-valid-sudoku](https://github.com/Sumitsk149/DSA/tree/master/0036-valid-sudoku) |
 | [0048-rotate-image](https://github.com/Sumitsk149/DSA/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/Sumitsk149/DSA/tree/master/0053-maximum-subarray) |
