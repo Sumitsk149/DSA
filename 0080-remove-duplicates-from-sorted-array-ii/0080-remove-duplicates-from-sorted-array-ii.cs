@@ -1,31 +1,16 @@
 public class Solution {
     public int RemoveDuplicates(int[] nums) 
     {
-        int lastNum = nums[0];
-        int lastNumCount = 1;
-        int lastNumPosition = 1;
-        int count = 1;
-
-        for(int i = 1; i < nums.Length; i++)
+        //Optmised with less variable declaration
+        int k = 0;
+        foreach(var num in nums)
         {
-            if(nums[i] == lastNum && lastNumCount == 1)
+            if(k < 2 || num != nums[k - 2])
             {
-                lastNumCount++;
-                nums[lastNumPosition] = nums[i];
-                lastNumPosition++;
-                count++;
+                nums[k] = num;
+                k++;
             }
-            
-            if(nums[i] > lastNum)
-            {
-                lastNum = nums[i];
-                lastNumCount = 1;
-                nums[lastNumPosition] = nums[i];
-                lastNumPosition++;
-                count++;
-            }     
         }
-
-        return count;
+        return k;
     }
 }
