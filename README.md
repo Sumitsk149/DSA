@@ -21,6 +21,7 @@
 | [0003-longest-substring-without-repeating-characters](https://github.com/Sumitsk149/DSA/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0151-reverse-words-in-a-string](https://github.com/Sumitsk149/DSA/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/Sumitsk149/DSA/tree/master/0205-isomorphic-strings) |
+| [0290-word-pattern](https://github.com/Sumitsk149/DSA/tree/master/0290-word-pattern) |
 | [0345-reverse-vowels-of-a-string](https://github.com/Sumitsk149/DSA/tree/master/0345-reverse-vowels-of-a-string) |
 | [0383-ransom-note](https://github.com/Sumitsk149/DSA/tree/master/0383-ransom-note) |
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/Sumitsk149/DSA/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
@@ -73,6 +74,7 @@
 | [0036-valid-sudoku](https://github.com/Sumitsk149/DSA/tree/master/0036-valid-sudoku) |
 | [0073-set-matrix-zeroes](https://github.com/Sumitsk149/DSA/tree/master/0073-set-matrix-zeroes) |
 | [0205-isomorphic-strings](https://github.com/Sumitsk149/DSA/tree/master/0205-isomorphic-strings) |
+| [0290-word-pattern](https://github.com/Sumitsk149/DSA/tree/master/0290-word-pattern) |
 | [0383-ransom-note](https://github.com/Sumitsk149/DSA/tree/master/0383-ransom-note) |
 | [2487-optimal-partition-of-string](https://github.com/Sumitsk149/DSA/tree/master/2487-optimal-partition-of-string) |
 | [2902-max-pair-sum-in-an-array](https://github.com/Sumitsk149/DSA/tree/master/2902-max-pair-sum-in-an-array) |
