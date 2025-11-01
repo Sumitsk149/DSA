@@ -101,10 +101,12 @@
 | [0002-add-two-numbers](https://github.com/Sumitsk149/DSA/tree/master/0002-add-two-numbers) |
 | [0009-palindrome-number](https://github.com/Sumitsk149/DSA/tree/master/0009-palindrome-number) |
 | [0048-rotate-image](https://github.com/Sumitsk149/DSA/tree/master/0048-rotate-image) |
+| [0070-climbing-stairs](https://github.com/Sumitsk149/DSA/tree/master/0070-climbing-stairs) |
 ## Dynamic Programming
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/Sumitsk149/DSA/tree/master/0053-maximum-subarray) |
+| [0070-climbing-stairs](https://github.com/Sumitsk149/DSA/tree/master/0070-climbing-stairs) |
 | [0118-pascals-triangle](https://github.com/Sumitsk149/DSA/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Sumitsk149/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Sumitsk149/DSA/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
@@ -132,4 +134,8 @@
 |  |
 | ------- |
 | [0155-min-stack](https://github.com/Sumitsk149/DSA/tree/master/0155-min-stack) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/Sumitsk149/DSA/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
