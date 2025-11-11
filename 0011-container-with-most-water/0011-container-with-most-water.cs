@@ -14,10 +14,6 @@ public class Solution {
             {
                 left++;
             }
-            else if(height[left] > height[right])
-            {
-                right--;
-            }
             else
             {
                 right--;
