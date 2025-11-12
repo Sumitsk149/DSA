@@ -1,24 +1,13 @@
 public class Solution {
-    public string ReverseWords(string s) {
-        StringBuilder sb = new();
+    public string ReverseWords(string s) 
+    {
+        //Trim for deleting spaces
+        s= s.Trim();
 
-        var sArray = s.Split(" ");
+        string[] words = s.Split(' ', StringSplitOptions.RemoveEmptyEntries);
 
-        for(int i = sArray.Length - 1; i >= 0; i--)
-        {
-            if (!string.IsNullOrEmpty(sArray[i]))
-            {
-                if(sb.Length > 0)
-                {
-                    sb.Append($" {sArray[i]}");
-                }
-                else
-                {
-                    sb.Append(sArray[i]);
-                }
-            }
-        }
-
-        return sb.ToString();
-    }
+        Array.Reverse(words);
+        
+        return string.Join(" ", words);
+    } 
 }
