@@ -53,6 +53,7 @@
 | [0485-max-consecutive-ones](https://github.com/Sumitsk149/DSA/tree/master/0485-max-consecutive-ones) |
 | [0605-can-place-flowers](https://github.com/Sumitsk149/DSA/tree/master/0605-can-place-flowers) |
 | [0643-maximum-average-subarray-i](https://github.com/Sumitsk149/DSA/tree/master/0643-maximum-average-subarray-i) |
+| [0645-set-mismatch](https://github.com/Sumitsk149/DSA/tree/master/0645-set-mismatch) |
 | [1137-height-checker](https://github.com/Sumitsk149/DSA/tree/master/1137-height-checker) |
 | [1528-kids-with-the-greatest-number-of-candies](https://github.com/Sumitsk149/DSA/tree/master/1528-kids-with-the-greatest-number-of-candies) |
 | [2902-max-pair-sum-in-an-array](https://github.com/Sumitsk149/DSA/tree/master/2902-max-pair-sum-in-an-array) |
@@ -83,6 +84,7 @@
 | [0205-isomorphic-strings](https://github.com/Sumitsk149/DSA/tree/master/0205-isomorphic-strings) |
 | [0290-word-pattern](https://github.com/Sumitsk149/DSA/tree/master/0290-word-pattern) |
 | [0383-ransom-note](https://github.com/Sumitsk149/DSA/tree/master/0383-ransom-note) |
+| [0645-set-mismatch](https://github.com/Sumitsk149/DSA/tree/master/0645-set-mismatch) |
 | [2487-optimal-partition-of-string](https://github.com/Sumitsk149/DSA/tree/master/2487-optimal-partition-of-string) |
 | [2902-max-pair-sum-in-an-array](https://github.com/Sumitsk149/DSA/tree/master/2902-max-pair-sum-in-an-array) |
 ## Matrix
@@ -96,6 +98,7 @@
 | ------- |
 | [0075-sort-colors](https://github.com/Sumitsk149/DSA/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/Sumitsk149/DSA/tree/master/0088-merge-sorted-array) |
+| [0645-set-mismatch](https://github.com/Sumitsk149/DSA/tree/master/0645-set-mismatch) |
 | [1137-height-checker](https://github.com/Sumitsk149/DSA/tree/master/1137-height-checker) |
 ## Counting Sort
 |  |
@@ -152,4 +155,8 @@
 |  |
 | ------- |
 | [0279-perfect-squares](https://github.com/Sumitsk149/DSA/tree/master/0279-perfect-squares) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0645-set-mismatch](https://github.com/Sumitsk149/DSA/tree/master/0645-set-mismatch) |
 <!---LeetCode Topics End-->
