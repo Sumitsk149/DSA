@@ -55,6 +55,7 @@
 | [0643-maximum-average-subarray-i](https://github.com/Sumitsk149/DSA/tree/master/0643-maximum-average-subarray-i) |
 | [0645-set-mismatch](https://github.com/Sumitsk149/DSA/tree/master/0645-set-mismatch) |
 | [1137-height-checker](https://github.com/Sumitsk149/DSA/tree/master/1137-height-checker) |
+| [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/Sumitsk149/DSA/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
 | [1528-kids-with-the-greatest-number-of-candies](https://github.com/Sumitsk149/DSA/tree/master/1528-kids-with-the-greatest-number-of-candies) |
 | [2902-max-pair-sum-in-an-array](https://github.com/Sumitsk149/DSA/tree/master/2902-max-pair-sum-in-an-array) |
 ## Greedy
@@ -85,6 +86,7 @@
 | [0290-word-pattern](https://github.com/Sumitsk149/DSA/tree/master/0290-word-pattern) |
 | [0383-ransom-note](https://github.com/Sumitsk149/DSA/tree/master/0383-ransom-note) |
 | [0645-set-mismatch](https://github.com/Sumitsk149/DSA/tree/master/0645-set-mismatch) |
+| [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/Sumitsk149/DSA/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
 | [2487-optimal-partition-of-string](https://github.com/Sumitsk149/DSA/tree/master/2487-optimal-partition-of-string) |
 | [2902-max-pair-sum-in-an-array](https://github.com/Sumitsk149/DSA/tree/master/2902-max-pair-sum-in-an-array) |
 ## Matrix
@@ -100,11 +102,13 @@
 | [0088-merge-sorted-array](https://github.com/Sumitsk149/DSA/tree/master/0088-merge-sorted-array) |
 | [0645-set-mismatch](https://github.com/Sumitsk149/DSA/tree/master/0645-set-mismatch) |
 | [1137-height-checker](https://github.com/Sumitsk149/DSA/tree/master/1137-height-checker) |
+| [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/Sumitsk149/DSA/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
 ## Counting Sort
 |  |
 | ------- |
 | [0383-ransom-note](https://github.com/Sumitsk149/DSA/tree/master/0383-ransom-note) |
 | [1137-height-checker](https://github.com/Sumitsk149/DSA/tree/master/1137-height-checker) |
+| [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/Sumitsk149/DSA/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
 ## Math
 |  |
 | ------- |
