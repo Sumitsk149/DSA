@@ -48,6 +48,7 @@
 | [0118-pascals-triangle](https://github.com/Sumitsk149/DSA/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Sumitsk149/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Sumitsk149/DSA/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/Sumitsk149/DSA/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0283-move-zeroes](https://github.com/Sumitsk149/DSA/tree/master/0283-move-zeroes) |
 | [0334-increasing-triplet-subsequence](https://github.com/Sumitsk149/DSA/tree/master/0334-increasing-triplet-subsequence) |
 | [0485-max-consecutive-ones](https://github.com/Sumitsk149/DSA/tree/master/0485-max-consecutive-ones) |
@@ -117,6 +118,7 @@
 | [0009-palindrome-number](https://github.com/Sumitsk149/DSA/tree/master/0009-palindrome-number) |
 | [0048-rotate-image](https://github.com/Sumitsk149/DSA/tree/master/0048-rotate-image) |
 | [0070-climbing-stairs](https://github.com/Sumitsk149/DSA/tree/master/0070-climbing-stairs) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/Sumitsk149/DSA/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0279-perfect-squares](https://github.com/Sumitsk149/DSA/tree/master/0279-perfect-squares) |
 ## Dynamic Programming
 |  |
@@ -147,6 +149,7 @@
 ## Stack
 |  |
 | ------- |
+| [0150-evaluate-reverse-polish-notation](https://github.com/Sumitsk149/DSA/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/Sumitsk149/DSA/tree/master/0155-min-stack) |
 | [1441-build-an-array-with-stack-operations](https://github.com/Sumitsk149/DSA/tree/master/1441-build-an-array-with-stack-operations) |
 ## Design
