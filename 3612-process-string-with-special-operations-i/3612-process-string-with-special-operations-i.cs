@@ -1,60 +1,52 @@
-public class Solution {
-    public string ProcessStr(string s) {
-
+public class Solution
+{
+    public string ProcessStr(string s)
+    {
         var result = new StringBuilder();
-        foreach(var ch in s)
+
+        foreach (var ch in s)
         {
-            if(ch == '*')
+            switch (ch)
             {
-                Remove(ch, result);
-            }
-            else if(ch == '#')
-            {
-                Duplicate(result);
-            }
-            else if(ch == '%')
-            {
-                result = Reverse(result);
-            }
-            else
-            {
-                result.Append(ch);
+                case '*': // Remove last char
+                    if (result.Length > 0)
+                        result.Length--;
+                    break;
+
+                case '#': // Duplicate efficiently
+                    if (result.Length > 0)
+                    {
+                        int len = result.Length;
+                        result.EnsureCapacity(result.Length + len);
+                        for (int i = 0; i < len; i++)
+                            result.Append(result[i]);
+                    }
+                    break;
+
+                case '%': // Reverse in place
+                    if (result.Length > 0)
+                        Reverse(result);
+                    break;
+
+                default: // Normal append
+                    result.Append(ch);
+                    break;
             }
         }
 
         return result.ToString();
     }
 
-    public void Remove(char ch, StringBuilder result)
+    private void Reverse(StringBuilder sb)
     {
-        if(result.Length > 0)
+        int left = 0, right = sb.Length - 1;
+        while (left < right)
         {
-            result.Length--;
+            char temp = sb[left];
+            sb[left] = sb[right];
+            sb[right] = temp;
+            left++;
+            right--;
         }
-    }
-
-    public void Duplicate(StringBuilder result)
-    {
-        if(result.Length > 0)
-        {
-            result.Append(result.ToString());
-        }
-    }
-
-    public StringBuilder Reverse(StringBuilder result)
-    {        
-        if(result.Length > 0)
-        {
-            var output = new StringBuilder();
-
-            for (int i = result.Length - 1; i >= 0; i--)
-            {
-                output.Append(result[i]);
-            }
-
-            return output;
-        }
-
-        return new StringBuilder();
     }
 }
