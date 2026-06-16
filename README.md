@@ -32,6 +32,7 @@
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/Sumitsk149/DSA/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1894-merge-strings-alternately](https://github.com/Sumitsk149/DSA/tree/master/1894-merge-strings-alternately) |
 | [2487-optimal-partition-of-string](https://github.com/Sumitsk149/DSA/tree/master/2487-optimal-partition-of-string) |
+| [3612-process-string-with-special-operations-i](https://github.com/Sumitsk149/DSA/tree/master/3612-process-string-with-special-operations-i) |
 ## Array
 |  |
 | ------- |
@@ -172,4 +173,5 @@
 |  |
 | ------- |
 | [1441-build-an-array-with-stack-operations](https://github.com/Sumitsk149/DSA/tree/master/1441-build-an-array-with-stack-operations) |
+| [3612-process-string-with-special-operations-i](https://github.com/Sumitsk149/DSA/tree/master/3612-process-string-with-special-operations-i) |
 <!---LeetCode Topics End-->
