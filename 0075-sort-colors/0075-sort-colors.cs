@@ -1,20 +1,35 @@
-public class Solution {
-    // Input: nums = [2,0,2,1,1,0]
-    // Output: [0,0,1,1,2,2]
-    public void SortColors(int[] nums) {
-        for(int i = 0; i < nums.Length; i++)
+public class Solution 
+{
+    public void SortColors(int[] nums) 
+    {
+        int low = 0;
+        int mid = 0;
+        int high = nums.Length - 1;
+
+        while(mid <= high)
         {
-            int minIndex = i;            
-            for(int j = i + 1; j < nums.Length; j++)
+            if(nums[mid] == 0)
             {
-                if(nums[j] < nums[minIndex])
-                {
-                    minIndex = j;
-                }
+                Swap(mid, low, nums);
+                low++;
+                mid++;
             }
-            int temp = nums[minIndex];
-            nums[minIndex] = nums[i];
-            nums[i] = temp;
+            else if(nums[mid] == 2)
+            {
+                Swap(mid, high, nums);
+                high--;
+            }
+            else if(nums[mid] == 1)
+            {
+                mid++;
+            }
         }
+    }
+
+    public void Swap(int i, int j, int[] nums)
+    {
+        var temp = nums[i];
+        nums[i] = nums[j];
+        nums[j] = temp;
     }
 }
