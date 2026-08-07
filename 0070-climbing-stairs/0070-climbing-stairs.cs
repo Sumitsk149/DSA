@@ -1,21 +1,19 @@
 public class Solution {
-    //Used top-down approach
     public int ClimbStairs(int n) 
     {
-        var dp = new int[n+1];
-        Array.Fill(dp, -1);
+        if(n <= 2)
+            return n;
 
-        return climb(n, dp);
-    }
+        int prev2 = 1;
+        int prev1 = 2;
 
-    private int climb(int n, int[] dp)
-    {
-        if(n <= 1)
-            return 1;
+        for(int i = 3; i <= n; i++)
+        {
+            int curr = prev1 + prev2;
+            prev2 = prev1;
+            prev1 = curr;
+        }
 
-        if(dp[n] == -1)
-            dp[n] = climb(n - 1, dp) + climb(n - 2, dp);
-        
-        return dp[n];
+        return prev1;;
     }
 }
