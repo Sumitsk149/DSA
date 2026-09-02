@@ -18,6 +18,7 @@
 | [0344-reverse-string](https://github.com/Sumitsk149/DSA/tree/master/0344-reverse-string) |
 | [0345-reverse-vowels-of-a-string](https://github.com/Sumitsk149/DSA/tree/master/0345-reverse-vowels-of-a-string) |
 | [0392-is-subsequence](https://github.com/Sumitsk149/DSA/tree/master/0392-is-subsequence) |
+| [0977-squares-of-a-sorted-array](https://github.com/Sumitsk149/DSA/tree/master/0977-squares-of-a-sorted-array) |
 | [1894-merge-strings-alternately](https://github.com/Sumitsk149/DSA/tree/master/1894-merge-strings-alternately) |
 ## String
 |  |
@@ -58,6 +59,7 @@
 | [0605-can-place-flowers](https://github.com/Sumitsk149/DSA/tree/master/0605-can-place-flowers) |
 | [0643-maximum-average-subarray-i](https://github.com/Sumitsk149/DSA/tree/master/0643-maximum-average-subarray-i) |
 | [0645-set-mismatch](https://github.com/Sumitsk149/DSA/tree/master/0645-set-mismatch) |
+| [0977-squares-of-a-sorted-array](https://github.com/Sumitsk149/DSA/tree/master/0977-squares-of-a-sorted-array) |
 | [1137-height-checker](https://github.com/Sumitsk149/DSA/tree/master/1137-height-checker) |
 | [1441-build-an-array-with-stack-operations](https://github.com/Sumitsk149/DSA/tree/master/1441-build-an-array-with-stack-operations) |
 | [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/Sumitsk149/DSA/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
@@ -106,6 +108,7 @@
 | [0075-sort-colors](https://github.com/Sumitsk149/DSA/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/Sumitsk149/DSA/tree/master/0088-merge-sorted-array) |
 | [0645-set-mismatch](https://github.com/Sumitsk149/DSA/tree/master/0645-set-mismatch) |
+| [0977-squares-of-a-sorted-array](https://github.com/Sumitsk149/DSA/tree/master/0977-squares-of-a-sorted-array) |
 | [1137-height-checker](https://github.com/Sumitsk149/DSA/tree/master/1137-height-checker) |
 | [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/Sumitsk149/DSA/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
 ## Counting Sort
