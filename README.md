@@ -63,6 +63,7 @@
 | [0643-maximum-average-subarray-i](https://github.com/Sumitsk149/DSA/tree/master/0643-maximum-average-subarray-i) |
 | [0645-set-mismatch](https://github.com/Sumitsk149/DSA/tree/master/0645-set-mismatch) |
 | [0977-squares-of-a-sorted-array](https://github.com/Sumitsk149/DSA/tree/master/0977-squares-of-a-sorted-array) |
+| [1014-best-sightseeing-pair](https://github.com/Sumitsk149/DSA/tree/master/1014-best-sightseeing-pair) |
 | [1137-height-checker](https://github.com/Sumitsk149/DSA/tree/master/1137-height-checker) |
 | [1441-build-an-array-with-stack-operations](https://github.com/Sumitsk149/DSA/tree/master/1441-build-an-array-with-stack-operations) |
 | [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/Sumitsk149/DSA/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
@@ -144,6 +145,7 @@
 | [0279-perfect-squares](https://github.com/Sumitsk149/DSA/tree/master/0279-perfect-squares) |
 | [0392-is-subsequence](https://github.com/Sumitsk149/DSA/tree/master/0392-is-subsequence) |
 | [0509-fibonacci-number](https://github.com/Sumitsk149/DSA/tree/master/0509-fibonacci-number) |
+| [1014-best-sightseeing-pair](https://github.com/Sumitsk149/DSA/tree/master/1014-best-sightseeing-pair) |
 ## Divide and Conquer
 |  |
 | ------- |
