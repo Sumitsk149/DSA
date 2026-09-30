@@ -2,16 +2,17 @@ public class Solution
 {
     public int MaxScoreSightseeingPair(int[] values) 
     {
-        int result = 0;
-        int max = values[0];
+        // Best values[i] + i seen so far
+        int maxLeftScore = values[0] + 0;
+        int maxScore = 0;
 
-        for(int i = 1; i < values.Length; i++)
-        {
-            result = Math.Max(result, max + values[i] - i);
-
-            max = Math.Max(max, values[i] + i);
+        for (int j = 1; j < values.Length; j++) {
+            // Best score using current j and the best left partner
+            maxScore = Math.Max(maxScore, maxLeftScore + values[j] - j);
+            // Update best left partner for future j's
+            maxLeftScore = Math.Max(maxLeftScore, values[j] + j);
         }
 
-        return result;
+        return maxScore;
     }
 }
