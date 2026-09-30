@@ -2,21 +2,24 @@ public class Solution
 {
     public int MaxProduct(int[] nums) 
     {
-        //Solving this using prefix and suffix scan.
+        //Solving this using dp approach.
 
+        int maxSoFar = nums[0];
+        int minSoFar = nums[0];
         int result = nums[0];
-        int prefix = 1;
-        int suffix = 1;
 
-        int len = nums.Length - 1;
-        for(int i = 0; i <= len; i++)
+        for(int i = 1; i < nums.Length; i++)
         {
-            prefix = (prefix == 0 ? 1 : prefix) * nums[i];
-            suffix = (suffix == 0 ? 1 : suffix) * nums[len - i];
+            int tempMax = Math.Max(nums[i], Math.Max(maxSoFar * nums[i], minSoFar * nums[i]));
+            int tempMin = Math.Min(nums[i], Math.Min(maxSoFar * nums[i], minSoFar * nums[i]));
 
-            result = Math.Max(result, Math.Max(prefix, suffix));
+            maxSoFar = tempMax;
+            minSoFar = tempMin;
+
+            result = Math.Max(result, maxSoFar);
         }
 
         return result;
+
     }
 }
